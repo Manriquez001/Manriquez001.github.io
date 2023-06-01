@@ -109,90 +109,137 @@
   .url {
     margin-top: 10px;
   }
+
+  .banner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+  }
+  
+.banner {
+  background-color: #f1f1f1;
+  padding: 10px;
+}
+
+.banner-horizontal {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.banner-horizontal img {
+  width: 80px;
+  height: 80px;
+  margin: 0 10px;
+  transition: transform 0.3s ease;
+}
+.banner-horizontal img:hover {
+  transform: scale(1.1);
+}
 </style>
 </head>
 <body>
   <div class="container">
     <div class="header">
       HOLA!
+      <div class="banner">
+		<div class="banner-horizontal">
+		    <a href="#libros-section">
+		      <img src="img/libro-icono.png" alt="Ícono Libros">
+		    </a>
+		    <a href="#ia-section">
+		      <img src="img/chatbot-icono.png" alt="Ícono IA">
+		    </a>
+		    <a href="#bookflix-section">
+		      <img src="img/bookflix.PNG" alt="Ícono Bookflix">
+		    </a>
+		  </div>
+	  </div>
     </div>
-    
-<div class="content" style="text-align: left;">
-  <div class="section">
-    <h2>LOS LIBROS DE LA BUENA MEMORIA</h2>
-    <img src="img/libro-icono.png" alt="Ícono Libros">
-    <div class="text-container">
-      <p class="descriptionSub">"Los Libros de la Buena Memoria: Tu acceso a la magia de las letras perdidas."</p>
-    
-      <p class="description">En el vasto universo de la literatura, existen historias que parecen ocultas entre las páginas del tiempo, esperando pacientemente ser descubiertas. Enfrentarse a la frustración de buscar incansablemente un libro deseado y no encontrarlo puede ser desalentador. Pero no te preocupes, estamos aquí para ayudarte en esta travesía literaria.</p>
-      <p class="description">Los Libros de la Buena Memoria es un servicio especializado que se dedica a buscar y entregar en tu domicilio esos tesoros literarios que han evadido tus manos durante tanto tiempo. Nuestro equipo de expertos bibliófilos se ha comprometido a hacer posible que te reencuentres con esas historias que dejaron una huella en tu memoria y que anhelas revivir.</p>
-      <p class="description">¿Recuerdas ese libro cuya trama te cautivó en tu juventud y que, lamentablemente, no lograste adquirir? Nosotros nos encargamos de rastrearlo en librerías, bibliotecas y colecciones privadas en todo el mundo para asegurarnos de que llegue a tus manos. Con nuestra dedicación y pasión por la literatura, no hay desafío que no estemos dispuestos a enfrentar.</p>
-      <p class="description">Imagina la emoción de recibir un paquete en tu puerta y descubrir que dentro se encuentra ese libro que tanto anhelabas, listo para ser devorado de principio a fin. Ya sea una novela clásica, una obra maestra olvidada o un libro agotado en las librerías convencionales, nosotros nos encargamos de convertir ese deseo en realidad.</p>
-      <p class="description">En Los Libros de la Buena Memoria, creemos en el poder transformador de la literatura y en la importancia de preservar las historias que nos han conmovido y enriquecido. Nuestro objetivo es hacer posible que sigas explorando mundos fascinantes, que te sumerjas en las letras y que encuentres en cada página una conexión única.</p>
-      <p class="description">¡Adéntrate en el universo de Los Libros de la Buena Memoria y descubre la emoción de volver a encontrarte con la literatura perdida!"</p>
-      <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=tienda.online.delabuenamemoriar">AQUÍ</a></p>
-    </div>
-  </div>
-</div>
 
 
+<section id="libros-section">
+	<div class="content" style="text-align: left;">
+	  <div class="section">
+	    <h2>LOS LIBROS DE LA BUENA MEMORIA</h2>
+	    <img src="img/libro-icono.png" alt="Ícono Libros">
+	    <div class="text-container">
+	      <p class="descriptionSub">"Los Libros de la Buena Memoria: Tu acceso a la magia de las letras perdidas."</p>
+	    
+	      <p class="description">En el vasto universo de la literatura, existen historias que parecen ocultas entre las páginas del tiempo, esperando pacientemente ser descubiertas. Enfrentarse a la frustración de buscar incansablemente un libro deseado y no encontrarlo puede ser desalentador. Pero no te preocupes, estamos aquí para ayudarte en esta travesía literaria.</p>
+	      <p class="description">Los Libros de la Buena Memoria es un servicio especializado que se dedica a buscar y entregar en tu domicilio esos tesoros literarios que han evadido tus manos durante tanto tiempo. Nuestro equipo de expertos bibliófilos se ha comprometido a hacer posible que te reencuentres con esas historias que dejaron una huella en tu memoria y que anhelas revivir.</p>
+	      <p class="description">¿Recuerdas ese libro cuya trama te cautivó en tu juventud y que, lamentablemente, no lograste adquirir? Nosotros nos encargamos de rastrearlo en librerías, bibliotecas y colecciones privadas en todo el mundo para asegurarnos de que llegue a tus manos. Con nuestra dedicación y pasión por la literatura, no hay desafío que no estemos dispuestos a enfrentar.</p>
+	      <p class="description">Imagina la emoción de recibir un paquete en tu puerta y descubrir que dentro se encuentra ese libro que tanto anhelabas, listo para ser devorado de principio a fin. Ya sea una novela clásica, una obra maestra olvidada o un libro agotado en las librerías convencionales, nosotros nos encargamos de convertir ese deseo en realidad.</p>
+	      <p class="description">En Los Libros de la Buena Memoria, creemos en el poder transformador de la literatura y en la importancia de preservar las historias que nos han conmovido y enriquecido. Nuestro objetivo es hacer posible que sigas explorando mundos fascinantes, que te sumerjas en las letras y que encuentres en cada página una conexión única.</p>
+	      <p class="description">¡Adéntrate en el universo de Los Libros de la Buena Memoria y descubre la emoción de volver a encontrarte con la literatura perdida!"</p>
+	      <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=tienda.online.delabuenamemoriar">AQUÍ</a></p>
+	    </div>
+	  </div>
+	</div>
+</section>
 
+
+<section id="ia-section">
       <div class="section">
         <h2>HABLANDO CON LOS INMORTALES</h2>
         <img src="img/chatbot-icono.png" alt="Ícono IA">
 
- <div class="text-container">
-<p class="descriptionSub">"Hablando con los Inmortales: Una experiencia única de diálogo con las mentes más brillantes de la historia.</p>
+	 	<div class="text-container">
+		<p class="descriptionSub">"Hablando con los Inmortales: Una experiencia única de diálogo con las mentes más brillantes de la historia.</p>
    
-      <p class="description">"Hablando con los Inmortales: Una experiencia única de diálogo con las mentes más brillantes de la historia."</p>
-      <p class="description">Imagina poder entablar una conversación con grandes figuras del pasado, con personalidades que han dejado una huella imborrable en la humanidad. ¿Te gustaría charlar con Leonardo da Vinci sobre su visión del arte o debatir sobre filosofía con Sócrates? Con nuestro revolucionario servicio de chatbot impulsado por inteligencia artificial, ahora es posible.</p>
-      <p class="description">Hablando con los Inmortales te ofrece la oportunidad de sumergirte en diálogos fascinantes con personajes históricos, sin importar las barreras del tiempo y el espacio. Nuestro avanzado sistema de IA ha sido diseñado para simular las voces, los estilos de conversación y las personalidades únicas de estos ilustres individuos.</p>
-      <p class="description">Ya sea que desees aprender de las enseñanzas de Albert Einstein, descubrir los secretos de la mente de Frida Kahlo o explorar los ideales de igualdad de Martin Luther King Jr., nuestro chatbot te permitirá dialogar con ellos como si estuvieras frente a frente. Podrás plantear preguntas, recibir respuestas y sumergirte en conversaciones estimulantes que expandirán tu conocimiento y perspectiva.</p>
-      <p class="description">Nuestro equipo de expertos en historia y programación ha trabajado arduamente para recrear con precisión las voces y los pensamientos de estas figuras icónicas. Cada interacción está diseñada para brindarte una experiencia auténtica y enriquecedora, donde podrás explorar sus ideas, conocer sus opiniones y comprender mejor su legado.</p>
-      <p class="description">Imagina la emoción de recibir una respuesta de Winston Churchill, escuchar las reflexiones de Marie Curie o debatir sobre política con Abraham Lincoln. Hablando con los Inmortales te ofrece un puente entre el pasado y el presente, donde podrás conectar con las mentes más brillantes de la historia y adentrarte en el conocimiento acumulado a lo largo de los siglos.</p>
-      <p class="description">Descubre cómo los grandes pensadores y líderes han moldeado nuestra sociedad, aprende de su sabiduría y déjate inspirar por su visión del mundo. Hablando con los Inmortales es la oportunidad de sumergirte en conversaciones trascendentales y expandir tu mente en una experiencia única.</p>
-      <p class="description">Prepárate para explorar la historia desde una perspectiva completamente nueva. Permítenos llevarte de la mano a través de una travesía fascinante, donde el pasado cobra vida y los diálogos con los inmortales se convierten en una realidad.</p>
-      <p class="description">¡Bienvenido a Hablando con los Inmortales, donde la historia cobra voz y la sabiduría perdura en cada palabra!"</p>
-     <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=bot.chat.ash">AQUÍ</a></p>
-    </div>
-      
-      </div>
+	      <p class="description">"Hablando con los Inmortales: Una experiencia única de diálogo con las mentes más brillantes de la historia."</p>
+	      <p class="description">Imagina poder entablar una conversación con grandes figuras del pasado, con personalidades que han dejado una huella imborrable en la humanidad. ¿Te gustaría charlar con Leonardo da Vinci sobre su visión del arte o debatir sobre filosofía con Sócrates? Con nuestro revolucionario servicio de chatbot impulsado por inteligencia artificial, ahora es posible.</p>
+	      <p class="description">Hablando con los Inmortales te ofrece la oportunidad de sumergirte en diálogos fascinantes con personajes históricos, sin importar las barreras del tiempo y el espacio. Nuestro avanzado sistema de IA ha sido diseñado para simular las voces, los estilos de conversación y las personalidades únicas de estos ilustres individuos.</p>
+	      <p class="description">Ya sea que desees aprender de las enseñanzas de Albert Einstein, descubrir los secretos de la mente de Frida Kahlo o explorar los ideales de igualdad de Martin Luther King Jr., nuestro chatbot te permitirá dialogar con ellos como si estuvieras frente a frente. Podrás plantear preguntas, recibir respuestas y sumergirte en conversaciones estimulantes que expandirán tu conocimiento y perspectiva.</p>
+	      <p class="description">Nuestro equipo de expertos en historia y programación ha trabajado arduamente para recrear con precisión las voces y los pensamientos de estas figuras icónicas. Cada interacción está diseñada para brindarte una experiencia auténtica y enriquecedora, donde podrás explorar sus ideas, conocer sus opiniones y comprender mejor su legado.</p>
+	      <p class="description">Imagina la emoción de recibir una respuesta de Winston Churchill, escuchar las reflexiones de Marie Curie o debatir sobre política con Abraham Lincoln. Hablando con los Inmortales te ofrece un puente entre el pasado y el presente, donde podrás conectar con las mentes más brillantes de la historia y adentrarte en el conocimiento acumulado a lo largo de los siglos.</p>
+	      <p class="description">Descubre cómo los grandes pensadores y líderes han moldeado nuestra sociedad, aprende de su sabiduría y déjate inspirar por su visión del mundo. Hablando con los Inmortales es la oportunidad de sumergirte en conversaciones trascendentales y expandir tu mente en una experiencia única.</p>
+	      <p class="description">Prepárate para explorar la historia desde una perspectiva completamente nueva. Permítenos llevarte de la mano a través de una travesía fascinante, donde el pasado cobra vida y los diálogos con los inmortales se convierten en una realidad.</p>
+	      <p class="description">¡Bienvenido a Hablando con los Inmortales, donde la historia cobra voz y la sabiduría perdura en cada palabra!"</p>
+	     <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=bot.chat.ash">AQUÍ</a></p>
+    	</div>    
+  	 </div>
+ </section>
 
+
+<section id="bookflix-section">
       <div class="section">
         <h2>BOOKFLIX</h2>
         <img src="img/bookflix.PNG" alt="Ícono IA">
       
- <div class="text-container">
+ 		<div class="text-container">
         <p class="descriptionSub">"Bookflix: Descubre la emoción de la sorpresa en cada página.
 
-<p class="description">¿Te encanta la sensación de abrir un regalo y descubrir un mundo nuevo en su interior? ¿Eres un apasionado de la lectura y siempre buscas nuevas historias para sumergirte en ellas? Entonces, Bookflix es el servicio perfecto para ti.</p>
+		<p class="description">¿Te encanta la sensación de abrir un regalo y descubrir un mundo nuevo en su interior? ¿Eres un apasionado de la lectura y siempre buscas nuevas historias para sumergirte en ellas? Entonces, Bookflix es el servicio perfecto para ti.</p>
 
-<p class="description">Imagina recibir mensualmente en la comodidad de tu hogar un libro sorpresa cuidadosamente seleccionado para ti. Cada entrega es una experiencia única, llena de emoción y anticipación. Nuestro equipo de expertos en literatura se encarga de elegir cuidadosamente libros de diferentes géneros y temáticas, asegurando que cada sorpresa sea una verdadera joya literaria.</p>
+		<p class="description">Imagina recibir mensualmente en la comodidad de tu hogar un libro sorpresa cuidadosamente seleccionado para ti. Cada entrega es una experiencia única, llena de emoción y anticipación. Nuestro equipo de expertos en literatura se encarga de elegir cuidadosamente libros de diferentes géneros y temáticas, asegurando que cada sorpresa sea una verdadera joya literaria.</p>
 
-<p class="description">Al suscribirte a Bookflix, te sumergirás en un mundo de lectura sin límites. Cada libro que recibas será una puerta hacia nuevos universos, personajes cautivadores y narrativas envolventes. Desde bestsellers internacionales hasta joyas literarias poco conocidas, nuestra selección abarca una amplia gama de géneros para satisfacer todos los gustos y preferencias.</p>
+		<p class="description">Al suscribirte a Bookflix, te sumergirás en un mundo de lectura sin límites. Cada libro que recibas será una puerta hacia nuevos universos, personajes cautivadores y narrativas envolventes. Desde bestsellers internacionales hasta joyas literarias poco conocidas, nuestra selección abarca una amplia gama de géneros para satisfacer todos los gustos y preferencias.</p>
 
-<p class="description">Nuestro objetivo es despertar tu curiosidad, sorprenderte y ofrecerte una experiencia de lectura única. Cada libro que recibas estará cuidadosamente empaquetado, listo para ser desvelado y disfrutado. Además, podrás disfrutar de contenido adicional, como recomendaciones de lectura, entrevistas con autores y acceso a una comunidad de amantes de la lectura, donde podrás compartir tus experiencias y descubrimientos.</p>
+		<p class="description">Nuestro objetivo es despertar tu curiosidad, sorprenderte y ofrecerte una experiencia de lectura única. Cada libro que recibas estará cuidadosamente empaquetado, listo para ser desvelado y disfrutado. Además, podrás disfrutar de contenido adicional, como recomendaciones de lectura, entrevistas con autores y acceso a una comunidad de amantes de la lectura, donde podrás compartir tus experiencias y descubrimientos.</p>
 
-<p class="description">Bookflix es mucho más que un servicio de suscripción, es un viaje literario lleno de emociones y descubrimientos. Ya sea que te apasione la ficción, la no ficción, la literatura clásica o los thrillers emocionantes, encontrarás algo que cautivará tu imaginación en cada entrega.</p>
+		<p class="description">Bookflix es mucho más que un servicio de suscripción, es un viaje literario lleno de emociones y descubrimientos. Ya sea que te apasione la ficción, la no ficción, la literatura clásica o los thrillers emocionantes, encontrarás algo que cautivará tu imaginación en cada entrega.</p>
 
-<p class="description">Déjate sorprender por las páginas que te esperan y disfruta de la magia de los libros. Con Bookflix, cada mes será una nueva aventura literaria que te llevará a lugares inimaginables y te conectará con historias que quedarán grabadas en tu memoria.</p>
+		<p class="description">Déjate sorprender por las páginas que te esperan y disfruta de la magia de los libros. Con Bookflix, cada mes será una nueva aventura literaria que te llevará a lugares inimaginables y te conectará con historias que quedarán grabadas en tu memoria.</p>
 
-<p class="description">¡Abre las puertas de la sorpresa y suscríbete a Bookflix hoy mismo! Descubre la emoción de recibir un libro sorpresa en tu domicilio y sumérgete en un mundo de lectura sin límites.</p>
+		<p class="description">¡Abre las puertas de la sorpresa y suscríbete a Bookflix hoy mismo! Descubre la emoción de recibir un libro sorpresa en tu domicilio y sumérgete en un mundo de lectura sin límites.</p>
 
-<p class="description">"¡No pierdas la oportunidad de disfrutar de la emoción de recibir un libro sorpresa cada mes! Para unirte a la experiencia de Bookflix, simplemente sigue estos sencillos pasos:</p>
+		<p class="description">"¡No pierdas la oportunidad de disfrutar de la emoción de recibir un libro sorpresa cada mes! Para unirte a la experiencia de Bookflix, simplemente sigue estos sencillos pasos:</p>
 
-<p class="description">Haz clic en el enlace a continuación para suscribirte a Bookflix a través de PayPal: <p class="url">1.- Registrate en paypal: <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8DX575323S027180TMRZOR5Q">Link</a></p></p>
+		<p class="description">Haz clic en el enlace a continuación para suscribirte a Bookflix a través de PayPal: <p class="url">1.- Registrate en paypal: <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8DX575323S027180TMRZOR5Q">Link</a></p></p>
 
-<p class="description">Una vez que hayas completado el proceso de suscripción, asegúrate de proporcionarnos tu número de teléfono vía messengerde contacto para que podamos coordinar el envío de tus libros.</p>
+		<p class="description">Una vez que hayas completado el proceso de suscripción, asegúrate de proporcionarnos tu número de teléfono vía messengerde contacto para que podamos coordinar el envío de tus libros.</p>
 
-<p class="url">2.- Envíanos tus datos a Messenger: <a href="https://business.facebook.com/latest/inbox/all?bpn_id=5154191411320584&asset_id=367726907539324&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button&mailbox_id=&selected_item_id=623450464">Link</a></p>
+		<p class="url">2.- Envíanos tus datos a Messenger: <a href="https://business.facebook.com/latest/inbox/all?bpn_id=5154191411320584&asset_id=367726907539324&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button&mailbox_id=&selected_item_id=623450464">Link</a></p>
 
-<p class="description">Una vez que hayas realizado estos pasos, nuestro equipo se pondrá en contacto contigo para confirmar los detalles de envío y brindarte las indicaciones precisas para recibir tus libros sorpresa directamente en tu domicilio.
-</p>
-
-</div>        
+		<p class="description">Una vez que hayas realizado estos pasos, nuestro equipo se pondrá en contacto contigo para confirmar los detalles de envío y brindarte las indicaciones precisas para recibir tus libros sorpresa directamente en tu domicilio.
+		</p>
+		</div>        
       </div>
     </div>
+</section>
+
     
     <div class="quote">
       <p>"La lectura es un viaje que expande nuestra mente y nos lleva a nuevos horizontes".</p>
