@@ -2,6 +2,7 @@
 <html>
 <head>
   <title>Página de bienvenida</title>
+  <link rel="stylesheet" href="styles.css">
   <style>
     body {
       font-family: Georgia, serif;
@@ -137,27 +138,56 @@
 .banner-horizontal img:hover {
   transform: scale(1.1);
 }
+.product-name {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 5px;
+}
+.play-store-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ff0000; /* Cambiar el color de fondo aquí */
+  border: none;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: #fff;
+  font-size: 14px;
+  font-weight: bold;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.play-store-button i {
+  margin-right: 5px;
+}
 </style>
 </head>
 <body>
-  <div class="container">
-    <div class="header">
-      HOLA!
-      <div class="banner">
-		<div class="banner-horizontal">
-		    <a href="#libros-section">
-		      <img src="img/libro-icono.png" alt="Ícono Libros">
-		    </a>
-		    <a href="#ia-section">
-		      <img src="img/chatbot-icono.png" alt="Ícono IA">
-		    </a>
-		    <a href="#bookflix-section">
-		      <img src="img/bookflix.PNG" alt="Ícono Bookflix">
-		    </a>
-		  </div>
-	  </div>
+<div class="container">
+  <div class="header">
+    <div class="banner">
+      <div class="banner-horizontal">
+        <a href="#libros-section">
+          <div class="product-container">
+            <img src="img/libro-icono.png" alt="Ícono Libros">
+          </div>
+        </a>
+        <a href="#ia-section">
+          <div class="product-container">
+            <img src="img/chatbot-icono.png" alt="Ícono IA">
+          </div>
+        </a>
+        <a href="#bookflix-section">
+          <div class="product-container">
+            <img src="img/bookflix.PNG" alt="Ícono Bookflix">
+          </div>
+        </a>
+      </div>
     </div>
-
+  </div>
+</div>
 
 <section id="libros-section">
 	<div class="content" style="text-align: left;">
@@ -173,7 +203,10 @@
 	      <p class="description">Imagina la emoción de recibir un paquete en tu puerta y descubrir que dentro se encuentra ese libro que tanto anhelabas, listo para ser devorado de principio a fin. Ya sea una novela clásica, una obra maestra olvidada o un libro agotado en las librerías convencionales, nosotros nos encargamos de convertir ese deseo en realidad.</p>
 	      <p class="description">En Los Libros de la Buena Memoria, creemos en el poder transformador de la literatura y en la importancia de preservar las historias que nos han conmovido y enriquecido. Nuestro objetivo es hacer posible que sigas explorando mundos fascinantes, que te sumerjas en las letras y que encuentres en cada página una conexión única.</p>
 	      <p class="description">¡Adéntrate en el universo de Los Libros de la Buena Memoria y descubre la emoción de volver a encontrarte con la literatura perdida!"</p>
-	      <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=tienda.online.delabuenamemoriar">AQUÍ</a></p>
+	     <button class="play-store-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=tienda.online.delabuenamemoriar'">
+        Descarga nuestra app en Play Store
+      </button>
+      </button>
 	    </div>
 	  </div>
 	</div>
@@ -197,7 +230,10 @@
 	      <p class="description">Descubre cómo los grandes pensadores y líderes han moldeado nuestra sociedad, aprende de su sabiduría y déjate inspirar por su visión del mundo. Hablando con los Inmortales es la oportunidad de sumergirte en conversaciones trascendentales y expandir tu mente en una experiencia única.</p>
 	      <p class="description">Prepárate para explorar la historia desde una perspectiva completamente nueva. Permítenos llevarte de la mano a través de una travesía fascinante, donde el pasado cobra vida y los diálogos con los inmortales se convierten en una realidad.</p>
 	      <p class="description">¡Bienvenido a Hablando con los Inmortales, donde la historia cobra voz y la sabiduría perdura en cada palabra!"</p>
-	     <p class="url">Descarga nuestra app en Play Store: <a href="https://play.google.com/store/apps/details?id=bot.chat.ash">AQUÍ</a></p>
+
+	      <button class="play-store-button" onclick="window.location.href='https://play.google.com/store/apps/details?id=bot.chat.ash'">
+        Descarga nuestra app en Play Store
+      </button>
     	</div>    
   	 </div>
  </section>
@@ -227,11 +263,21 @@
 
 		<p class="description">"¡No pierdas la oportunidad de disfrutar de la emoción de recibir un libro sorpresa cada mes! Para unirte a la experiencia de Bookflix, simplemente sigue estos sencillos pasos:</p>
 
-		<p class="description">Haz clic en el enlace a continuación para suscribirte a Bookflix a través de PayPal: <p class="url">1.- Registrate en paypal: <a href="https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8DX575323S027180TMRZOR5Q">Link</a></p></p>
+		<p class="description">Haz clic en el botón a continuación para suscribirte a Bookflix a través de PayPal: 
 
+		
+
+
+	      <button class="play-store-button" onclick="window.location.href='https://www.paypal.com/webapps/billing/plans/subscribe?plan_id=P-8DX575323S027180TMRZOR5Q'">
+        Registrate en paypal
+      </button>
 		<p class="description">Una vez que hayas completado el proceso de suscripción, asegúrate de proporcionarnos tu número de teléfono vía messengerde contacto para que podamos coordinar el envío de tus libros.</p>
 
-		<p class="url">2.- Envíanos tus datos a Messenger: <a href="https://business.facebook.com/latest/inbox/all?bpn_id=5154191411320584&asset_id=367726907539324&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button&mailbox_id=&selected_item_id=623450464">Link</a></p>
+
+
+	      <button class="play-store-button" onclick="window.location.href='https://business.facebook.com/latest/inbox/all?bpn_id=5154191411320584&asset_id=367726907539324&nav_ref=redirect_biz_inbox_comet_profile_plus_ap_page_inbox_message_button&mailbox_id=&selected_item_id=623450464'">
+        Envíanos tus datos por Messenger
+      </button>
 
 		<p class="description">Una vez que hayas realizado estos pasos, nuestro equipo se pondrá en contacto contigo para confirmar los detalles de envío y brindarte las indicaciones precisas para recibir tus libros sorpresa directamente en tu domicilio.
 		</p>
